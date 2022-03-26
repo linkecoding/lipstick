@@ -1,0 +1,19 @@
+{
+  "name": "lipstick",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "gulp clean",
+    "build": "gulp build"
+  },
+  "author": "Ovilia",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^6.0.0",
+    "get-pixels": "latest",
+    "gulp": "latest",
+    "gulp-jsonminify": "latest",
+    "gulp-minify": "latest"
+  }
+}
