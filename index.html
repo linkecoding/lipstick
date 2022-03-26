@@ -92,16 +92,21 @@
     </div>
 
     <div id="info">
-        <h1>口红颜色可视化</h1>
+        <h1>口红色号可视化</h1>
         <div id="link">
             <a href="https://github.com/Ovilia/lipstick">GitHub</a>
             <a href="http://zhangwenli.com">作者：@羡辙</a>
         </div>
     </div>
 
-    <script src="lib/tinycolor-min.js"></script>
-    <script src="lib/zepto.min.js"></script>
-    <script src="lib/zrender.min.js"></script>
-    <script src="index-min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/tinycolor/1.4.2/tinycolor.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/zrender/4.0.5/zrender.min.js"></script>
+    <script src="./index-min.js"></script>
+    <script>
+        $(() => {
+            init();
+        })
+    </script>
 </body>
 </html>
